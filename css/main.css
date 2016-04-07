@@ -34,3 +34,18 @@ svg {
 .lines path {
   stroke-dasharray: 0, 480;
 }
+
+.active .lines path {
+  animation: lines 1s linear forwards;
+}
+
+@keyframes lines {
+
+  0% {
+    stroke-dasharray: 0, 480;
+  }
+
+  100% {
+    stroke-dasharray: 480, 480;
+  }
+}
