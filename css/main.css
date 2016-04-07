@@ -49,3 +49,44 @@ svg {
     stroke-dasharray: 480, 480;
   }
 }
+
+.active .engage path {
+  transition: all 1s linear;
+  fill: #f60;
+}
+
+.engage path:nth-child(2) {
+  transition-delay: .2s;
+}
+
+.active .btn path:nth-child(2) {
+  fill: #f60;
+}
+
+.engage path:nth-child(3) {
+  transition-delay: .3s;
+}
+
+.active .btn path:nth-child(3) {
+  fill: #f60;
+}
+
+.engage path:nth-child(4) {
+  transition-delay: .3s;
+}
+
+.active .btn path:nth-child(4) {
+  fill: #f60;
+}
+
+.engage path:nth-child(5) {
+  transition-delay: .2s;
+}
+
+.active .btn path:nth-child(4) {
+  fill: #f60;
+}
+
+.btn:active {
+  transform: scale(1, 1);
+}
